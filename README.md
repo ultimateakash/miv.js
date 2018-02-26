@@ -1,9 +1,29 @@
 # miv.js
 miv.js (Multiple Image Video) is a simple jquery plugin for uploading multiple images, videos  (By Akash Verma)
 
-#Initalize  $('.gallery').miv();
+<a href="javascript:;"><img src="https://mercury.promaticstechnologies.com/mivjs.gif" alt="miv.js demo"></a>
 
- <h4>$('class or id where you want to show image').miv({image:'class or id of your input type image ',video:'class or id of your input type file'});</h4>
+## Usage
 
+Initalize 
+```js
+$('.gallery').miv();
+```
 
-  Example: <h4>$('.gallery').miv({image:'.cam',video:'.vid'});</h4>
+```js
+$('class or id where you want to show image').miv({image:'class or id of input ',video:'class or id of input'});
+```
+For Multiple Video And Image
+```js
+$('.gallery').miv({image:'.cam',video:'.vid'});
+```
+
+For Multiple Video
+```js
+$('.gallery').miv({video:'.vid'});
+```
+
+For Multiple Image
+```js
+$('.gallery').miv({image:'.cam'});
+```
