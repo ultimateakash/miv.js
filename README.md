@@ -28,6 +28,6 @@ For Multiple Image
 $('.gallery').miv({image:'.cam'});
 ```
 
-#Support
+## Support
 
 Contact Me: Ultimateakash311@gmail.com
