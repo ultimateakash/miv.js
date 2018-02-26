@@ -27,3 +27,7 @@ For Multiple Image
 ```js
 $('.gallery').miv({image:'.cam'});
 ```
+
+#Support
+
+Contact Me: Ultimateakash311@gmail.com
