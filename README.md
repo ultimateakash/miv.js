@@ -11,7 +11,7 @@ $('.gallery').miv();
 ```
 
 ```js
-$('class or id where you want to show image').miv({image:'class or id of input ',video:'class or id of input'});
+$('class/id where you want to show image').miv({image:'class/id of input ',video:'class/id of input'});
 ```
 For Multiple Video And Image
 ```js
