@@ -30,4 +30,8 @@ $('.gallery').miv({image:'.cam'});
 
 ## Support
 
-Contact Me: Ultimateakash311@gmail.com
+Contact Me
+Email: Ultimateakash311@gmail.com
+Mobile:  +919761075358
+Whatsapp:+918265918566
+
