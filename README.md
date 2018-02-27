@@ -13,7 +13,7 @@ $('.gallery').miv();
 ```js
 $('class/id where you want to show image').miv({image:'class/id of anchor ',video:'class/id of anchor'});
 ```
-Example
+Example [click here](https://mercury.promaticstechnologies.com/MinufDB/example.html).
 ```html
   <ul>
       <li>
