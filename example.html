@@ -1,0 +1,52 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>miv.js Example</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://mercury.promaticstechnologies.com/MinufDB/multiple-image-video(MIV).css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   </head>
+   <style type="text/css">
+      ul li {
+      float: right;
+      list-style: outside none none;
+      padding-left: 10px;
+      }
+   </style>
+   <body>
+      <div class="jumbotron text-center">
+         <h3>Miv.Js</h3>
+         <p>A Jquery Plugin for Upload Multiple Video Image</p>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-6">
+               <ul>
+                  <li>
+                     <a class="cam" href="javascript:void(0)"><span><i class="fa fa-camera fa-fw"></i></span>
+                     </a>
+                  </li>
+                  <li>
+                     <a class="vid" href="javascript:void(0)"><span><i class="fa fa-video-camera fa-fw"></i></span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div class="col-md-6">
+               <div class="gallery"></div>
+            </div>
+         </div>
+      </div>
+      <script src="https://mercury.promaticstechnologies.com/MinufDB/multiple-image-video(MIV).js"></script>
+      <script type="text/javascript">
+         $('.gallery').miv({image:'.cam',video:'.vid'});
+      </script>
+   </body>
+</html>
+
