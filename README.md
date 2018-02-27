@@ -11,8 +11,22 @@ $('.gallery').miv();
 ```
 
 ```js
-$('class/id where you want to show image').miv({image:'class/id of input ',video:'class/id of input'});
+$('class/id where you want to show image').miv({image:'class/id of anchor ',video:'class/id of anchor'});
 ```
+Example
+```html
+  <ul>
+      <li>
+          <a class="cam" href="javascript:void(0)"><span><i class="fa fa-camera fa-fw"></i></span>
+          </a>
+      </li>
+      <li>
+          <a class="vid" href="javascript:void(0)"><span><i class="fa fa-video-camera fa-fw"></i></span>
+          </a>
+      </li>
+  </ul>
+```
+
 For Multiple Video And Image
 ```js
 $('.gallery').miv({image:'.cam',video:'.vid'});
