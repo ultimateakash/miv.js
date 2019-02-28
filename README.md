@@ -47,5 +47,5 @@ $('.gallery').miv({image:'.cam'});
 Contact Me
 Email: Ultimateakash311@gmail.com
 Mobile:  +919761075358
-Whatsapp:+918265918566
+Whatsapp:+919779625238
 
